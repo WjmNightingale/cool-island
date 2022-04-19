@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T02:02:50.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.1" etag="bz8D3PxcxSmgNEevyoD-" type="github"><diagram id="n6J1yNlcWk0fLhsl68S5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-19T02:25:50.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="tG2Rt6ZCN0j8KEMTF7Rd" version="17.4.1" type="github">
+  <diagram id="n6J1yNlcWk0fLhsl68S5" name="Page-1">
+    <mxGraphModel dx="1805" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-1" value="Caller" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;color=red;" vertex="1" parent="1">
+          <mxGeometry x="-338" y="277" width="129" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-2" value="class User" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="48" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-3" value="gett()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="84" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-4" value="set()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="164" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-33" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="STZnk3b4Jdn7tw36fxZw-5" target="STZnk3b4Jdn7tw36fxZw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-5" value="on()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="244" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-6" value="trigger()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="324" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-7" value="fetch()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="404" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-11" value="save()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="479" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="100" width="205" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-18" value="class Attribute&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="367" y="23" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-19" value="get(key: K): T[K]" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="367" y="63" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-20" value="set(update: T): void" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="367" y="105" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-21" value="class Eventing" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="373" y="232" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-22" value="on(eventName: string, callback:() =&amp;gt; void)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="373" y="268" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-23" value="trigger(eventName: string): void" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="370" y="308" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-24" value="class Sync&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="367" y="431" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-25" value="save(data: T):Promise" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="367" y="513" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-26" value="fetch(id: number):Promise" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="367" y="473" width="231" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="STZnk3b4Jdn7tw36fxZw-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="158" y="38" width="212" height="508" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
